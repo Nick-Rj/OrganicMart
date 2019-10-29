@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+
+body {
+    background: url("background.jpg") center fixed no-repeat;
+    background-size: cover;
+    font-family: 'Gayathri', sans-serif;
+    transition: background 1.5s ease-in-out;
+}
+
+button, input {
+    font-family: 'Gayathri', sans-serif;
+
+}
+
+#container {
+    text-align: center;
+    width: 50em;
+    height: 25em;
+    /*background: linear-gradient(to bottom, rgba(211, 184, 217, .5), rgba(238, 157, 206, .5), rgba(238, 157, 206, .5), rgba(238, 157, 206, .5), rgba(211, 184, 217, .5)) center fixed no-repeat;*/
+    background: linear-gradient(to bottom, rgba(241, 90, 34, .4), rgba(249, 105, 14, .4), rgba(249, 105, 14, .4), rgba(249, 105, 14, .4), rgba(241, 90, 34, .4)) center fixed no-repeat;
+    background-size: cover;
+    border-radius: .5em;
+    margin: 5em auto 0 auto;
+    transition: background .5s linear;
+
+}
+
+.display {
+    width: 100%;
+    height: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+/*Styling Individual Displays*/
+
+/*Styling 1st Display*/
+#d1, #d2, #d3, #d4, #d5 {
+    text-align: center;
+    opacity: .7;
+}
+
+#d1 h1 {
+    padding-top: 2em;
+    /*color: rgba(246, 36, 89, .7);*/
+    color: rgba(249, 191, 59, .9);
+    transition: color 1.5s ease-in-out;
+
+}
+
+#d1 input[type='text'], [type='email'] {
+    width: 20em;
+    height: 2em;
+    margin-top: 1em;
+    border-radius: .5em;
+    outline: 0;
+    border: 0;
+    padding: .5em;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#d1 button {
+    margin-top: 1em;
+    width: 18em;
+    height: 3em;
+    border-radius: .5em;
+    border: 0;
+    font-size: 1em;
+    font-weight: bolder;
+    /*background-color: rgba(246, 36, 89, .7);*/
+    background-color: rgba(241, 90, 34, .9);
+    color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 1.5s ease-in-out;
+}
+
+/*Styling 2nd Display*/
+#d2 h1 {
+    padding-top: 2em;
+    /*color: rgba(246, 36, 89, .7);*/
+    transition: color 1.5s ease-in-out;
+}
+
+#d2 h2 {
+    /*color: rgba(246, 36, 89, .7);*/
+    transition: color 1.5s ease-in-out;
+}
+
+#d2 button {
+    margin: 2em 1em 0 1em;
+    width: 18em;
+    height: 3em;
+    border-radius: .5em;
+    border: 0;
+    font-size: 1em;
+    font-weight: bolder;
+    /*background-color: rgba(246, 36, 89, .7);*/
+    color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 1.5s ease-in-out;
+
+}
+
+/*Styling 3rd Display*/
+#d3 {
+    margin: 0;
+    padding: 0;
+}
+
+#d3 #head3 {
+    padding-top: .2em;
+    /*color: rgba(246, 36, 89, .7);*/
+    transition: color 1.5s ease-in-out;
+    display: inline-block;
+
+}
+
+#previousPg {
+    padding-top: .2em;
+    display: block;
+    transition: color 1.5s ease-in-out;
+    position: absolute;
+    text-align: left;
+    margin-left: 2.5em;
+
+}
+
+#d3 .items .item {
+    display: inline-block;
+    width: 12em;
+    height: 6em;
+    margin: .5em 1em .5em 1em;
+}
+
+#d3 .items .item .token {
+    width: 2em;
+    height: 1.5em;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-top: -1em;
+    margin-left: 9em;
+    padding-top: .5em;
+    border-radius: .2em;
+    cursor: default;
+    background: linear-gradient(to left, rgb(217, 30, 24), rgb(242, 38, 19), rgb(242, 38, 19), rgb(242, 38, 19), rgb(217, 30, 24));
+    position: absolute;
+}
+
+#d3 .items .btn1 {
+    width: 100%;
+    height: 2.7em;
+    /*background-color: rgba(246, 36, 89, .7);*/
+    border: 0;
+    color: whitesmoke;
+    margin-top: .1em;
+    margin-bottom: .4em;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1em;
+    border-radius: .7em;
+    transition: background-color 1.5s ease-in-out;
+
+}
+
+#d3 .items .count {
+    width: 3em;
+    height: 2.6em;
+    font-weight: bolder;
+    outline: 0;
+    border: 0;
+    border-radius: .7em;
+    padding-left: .5em;
+}
+
+#d3 .items .reset {
+    width: 4em;
+    height: 2.7em;
+    /*background-color: rgba(246, 36, 89, .7);*/
+    border: 0;
+    outline: 0;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: .7em;
+    transition: background-color 1.5s ease-in-out;
+
+}
+
+#d3 .checkout {
+    display: inline-block;
+}
+
+#d3 .checkout .btn1 {
+    width: 10em;
+    height: 2.7em;
+    /*background-color: rgba(246, 36, 89, .7);*/
+    border: 0;
+    color: whitesmoke;
+    margin-top: .1em;
+    margin-bottom: .4em;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1em;
+    border-radius: .7em;
+    transition: background-color 1.5s ease-in-out;
+
+}
+
+#d3 .checkout .count {
+    width: 5em;
+    height: 2.6em;
+    outline: 0;
+    font-weight: bolder;
+    border: 0;
+    border-radius: .7em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: .5em;
+}
+
+/*Styling 4th Display*/
+#d4 #head4 {
+    padding-top: .2em;
+    margin-bottom: 0;
+    /*color: rgba(246, 36, 89, .7);*/
+    transition: color 1.5s ease-in-out;
+    display: inline-block;
+
+}
+
+#d4 .centerTable{
+    width: 40em;
+    margin: .1em auto;
+    color: rgba(250, 216, 89,.9);
+}
+
+#d4 #invoice{
+    list-style-type: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+
+#d4 #invoice .invoiceItem span{
+    margin:30em 5em 30em 5em;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#d4 #invoice .invoiceItem .payHead{
+    width: 20em;
+    padding: .5em .1em;
+    background-color: orange;
+    border-radius: .5em;
+    color: whitesmoke;
+    transition: background-color 1.5s ease-in-out;
+}
+
+#d4 #pay {
+    width: 10em;
+    height: 2.7em;
+    background-color: orange;
+    border: 0;
+    color: whitesmoke;
+    margin-top: .1em;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1em;
+    border-radius: .7em;
+    transition: background-color 1.5s ease-in-out;
+}
+
+#d4 #pay {
+    margin-top: 1em;
+}
+
+#d4 #amount {
+    width: 5em;
+    height: 2.6em;
+    outline: 0;
+    font-weight: bolder;
+    border: 0;
+    border-radius: .7em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: .5em;
+}
+
+/*Styling 5th Section*/
+#d5 .greet{
+    padding-top: 2.5em;
+}
+
+#d5 .greet h1 {
+    /*color: rgba(246, 36, 89, .7);*/
+    color: whitesmoke;
+    transition: color 1.5s ease-in-out;
+
+}
+
+#d5 .greet h1 i{
+    font-size: 5em;
+}
